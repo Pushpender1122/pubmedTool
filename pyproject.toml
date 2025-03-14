@@ -1,7 +1,7 @@
 [project]
 name = "pubmedtool"
-version = "0.1.0"
-description = ""
+version = "0.1.1"
+description = "A tool to get papers list from pubmed"
 authors = [
     {name = "Pushpender",email = "pushpenderjangra2005@gmail.com"}
 ]
