@@ -7,7 +7,7 @@ from typing import List, Dict, Any, Union
 
 
 class PubMedFetcher:
-    def __init__(self, retmax: int = 5):
+    def __init__(self, retmax: int = 100):
         self.search_url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
         self.fetch_url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
         self.db = "pubmed"
